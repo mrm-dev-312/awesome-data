@@ -17,38 +17,38 @@ This foundational section lists the major aggregators and platforms that serve a
 ### Curated "Awesome" Lists
 The open-source community maintains numerous "Awesome" lists that serve as excellent, topic-centric starting points. These lists represent a grassroots effort to impose order on the decentralized world of public data, providing curated pathways into specific domains.
 
-- (https://github.com/awesomedata/awesome-public-datasets) - A high-quality, topic-centric list of public data sources, widely considered a cornerstone resource in the data community. It is collected and tidied from blogs, answers, and user responses, covering a vast range of subjects from agriculture to social sciences.   
+- [/awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) - A high-quality, topic-centric list of public data sources, widely considered a cornerstone resource in the data community. It is collected and tidied from blogs, answers, and user responses, covering a vast range of subjects from agriculture to social sciences.   
 
 
-- (https://github.com/bytewax/awesome-public-real-time-datasets) - A specialized list focusing on streaming data sources accessible via HTTP or WebSockets. This is a crucial resource for real-time analytics applications in areas like finance, transportation, and cybersecurity.   
+- [/bytewax/awesome-public-real-time-datasets](https://github.com/bytewax/awesome-public-real-time-datasets) - A specialized list focusing on streaming data sources accessible via HTTP or WebSockets. This is a crucial resource for real-time analytics applications in areas like finance, transportation, and cybersecurity.   
 
 
-- (https://github.com/datasets/awesome-data) - Another well-regarded, curated list of quality open datasets that emphasizes accessibility and high quality across various domains.   
+- [datasets/awesome-data](https://github.com/datasets/awesome-data) - Another well-regarded, curated list of quality open datasets that emphasizes accessibility and high quality across various domains.   
 
 
-- (https://github.com/oxnr/awesome-bigdata) - A collection of resources related to big data technologies, including distributed programming frameworks, stream processing engines, and databases. While not a list of datasets per se, it is essential for understanding the tools required to handle the scale of many datasets listed in this guide.   
+- [/oxnr/awesome-bigdata](https://github.com/oxnr/awesome-bigdata) - A collection of resources related to big data technologies, including distributed programming frameworks, stream processing engines, and databases. While not a list of datasets per se, it is essential for understanding the tools required to handle the scale of many datasets listed in this guide.   
 
 ### Major Data Portals
 These platforms represent the central hubs of the data science and open government ecosystems. They offer not just data, but also integrated tools, collaborative environments, and extensive documentation.
 
-- (https://www.kaggle.com/datasets) - An online community platform for data scientists that hosts thousands of public datasets. Many datasets are accompanied by notebooks with starter analysis code, making it an invaluable resource for both learning and competitive data science. Kaggle supports various formats, including CSV, SQLite, and Google BigQuery datasets.   
+- [Kaggle Datasets](https://www.kaggle.com/datasets) - An online community platform for data scientists that hosts thousands of public datasets. Many datasets are accompanied by notebooks with starter analysis code, making it an invaluable resource for both learning and competitive data science. Kaggle supports various formats, including CSV, SQLite, and Google BigQuery datasets.   
 
 
-- (https://datasetsearch.research.google.com/) - A powerful search engine specifically for datasets. It indexes millions of datasets from thousands of repositories across the web, making it an indispensable tool for broad data discovery.   
+- [Dataset Search by Google](https://datasetsearch.research.google.com/) - A powerful search engine specifically for datasets. It indexes millions of datasets from thousands of repositories across the web, making it an indispensable tool for broad data discovery.   
 
 
-- (https://data.gov/) - The home of the U.S. Government's open data, providing access to nearly 300,000 datasets from federal, state, and local government organizations. It is a primary source for official statistics on demographics, economics, public services, and more, reflecting a national policy of data transparency.   
+- [Data.gov](https://data.gov/) - The home of the U.S. Government's open data, providing access to nearly 300,000 datasets from federal, state, and local government organizations. It is a primary source for official statistics on demographics, economics, public services, and more, reflecting a national policy of data transparency.   
 
 
-- (https://data.world/) - A collaborative data platform that hosts a large catalog of open datasets. It is designed to facilitate community-driven data projects, emphasizing ease of use, data joining, and sharing of analytical findings.   
+- [Data.World](https://data.world/) - A collaborative data platform that hosts a large catalog of open datasets. It is designed to facilitate community-driven data projects, emphasizing ease of use, data joining, and sharing of analytical findings.   
 
 ## Cloud-Based Public Datasets
 Major cloud providers host large-scale datasets, making them accessible for analysis with powerful cloud computing resources. This model shifts the burden of data storage from the user to the provider, democratizing access to petabyte-scale data and enabling analysis that would be infeasible on local machines.
 
-- (https://cloud.google.com/bigquery/public-data) - A collection of large-scale public datasets hosted in Google's BigQuery data warehouse. Users pay only for the queries they run, with a generous free monthly tier of 1 TB. This makes it ideal for exploring massive datasets like the complete revision history of Wikipedia, GitHub activity, or SEC filings without incurring storage costs.   
+- [Public BigQuery Datasets](https://cloud.google.com/bigquery/public-data) - A collection of large-scale public datasets hosted in Google's BigQuery data warehouse. Users pay only for the queries they run, with a generous free monthly tier of 1 TB. This makes it ideal for exploring massive datasets like the complete revision history of Wikipedia, GitHub activity, or SEC filings without incurring storage costs.   
 
 
-- (https://registry.opendata.aws/) - A registry of public datasets available via AWS resources. It exists to help people discover and share datasets hosted on AWS, including data from major scientific and governmental organizations like NASA, the National Oceanic and Atmospheric Administration (NOAA), and the National Institutes of Health (NIH).   
+- [Public AWS Data](https://registry.opendata.aws/) - A registry of public datasets available via AWS resources. It exists to help people discover and share datasets hosted on AWS, including data from major scientific and governmental organizations like NASA, the National Oceanic and Atmospheric Administration (NOAA), and the National Institutes of Health (NIH).   
 
 ## Commercial & B2B Intelligence
 This section focuses on datasets that describe the business world itself. This data is the lifeblood of B2B sales, marketing, and corporate strategy, enabling organizations to understand their target markets, identify potential customers, and analyze competitive landscapes. While some public data exists, this field is dominated by commercial providers who invest heavily in collecting, verifying, and enriching firmographic, technographic, and intent data. The progression from static business directories to dynamic, real-time behavioral signals marks a fundamental shift in B2B strategy—moving from asking "who could we sell to?" to answering "who is ready to buy now?".   
@@ -56,18 +56,16 @@ This section focuses on datasets that describe the business world itself. This d
 ### Firmographic & Technographic Data
 Firmographic data describes the attributes of a business (industry, size, revenue, location), while technographic data details the technology stack it uses. Together, they form a detailed profile of a potential customer, allowing for precise market segmentation.   
 
-- OpenCorporates - The largest open database of companies in the world, providing access to foundational legal entity data. It is an essential starting point for obtaining public information on company registration and structure.   
+- [OpenCorporates](https://opencorporates.com/) - The largest open database of companies in the world, providing access to foundational legal entity data. It is an essential starting point for obtaining public information on company registration and structure.   
 
 ### Commercial Data Providers: These services offer enriched, verified, and detailed B2B datasets, often via API, for direct integration into CRM and marketing automation platforms. They provide the actionable intelligence required for targeted sales and marketing campaigns.
 
-Provider Name	Key Offerings	Data Points/Coverage	Unique Value Proposition
-
-- Data Axle	B2B marketing and sales data, data validation and enrichment services.	90M+ business profiles with 400+ attributes, 183M+ contacts.	
+- [Data Axle](https://www.data-axle.com/)	B2B marketing and sales data, data validation and enrichment services.	90M+ business profiles with 400+ attributes, 183M+ contacts.	
 Deep business location data, strong coverage of small- and medium-sized businesses (SMBs), and human-verified data through 25 million annual calls.   
-- Dealfront	Sales intelligence and engagement platform.	40M+ companies, 180M+ contacts.	
+- [Dealfront](https://www.dealfront.com/)	Sales intelligence and engagement platform.	40M+ companies, 180M+ contacts.	
 Integrates with popular CRMs (Salesforce, HubSpot) and includes a convenient browser extension for real-time prospecting.   
 
-- ZoomInfo	B2B data provider with a focus on buyer intent.	Company insights, direct dial phone numbers, and buying intent signals.	
+- [ZoomInfo](https://www.zoominfo.com/)	B2B data provider with a focus on buyer intent.	Company insights, direct dial phone numbers, and buying intent signals.	
 Offers buyer intent insights, data enrichment APIs, and website visitor tracking to identify active buyers.   
 
 - Apollo.io	All-in-one sales intelligence and engagement platform.	B2B lead database with lead scoring and filtering.	
@@ -82,7 +80,7 @@ Specializes in geospatial data for competitive benchmarking, site selection, and
 ### B2B Intent & Lead Generation Data
 Intent data is a crucial layer on top of firmographics, providing signals about a company's active interest in purchasing a product or service. This information is derived from a company's online behavior, such as web searches, content downloads, and event attendance. It allows sales and marketing teams to prioritize outreach to organizations that are already in the market, dramatically increasing efficiency and conversion rates.   
 
-- (https://datarade.ai/) - A data marketplace where users can find, compare, and purchase datasets from various B2B data providers. It is an excellent resource for discovering specialized vendors for intent data, lead generation lists, and other niche B2B data categories.   
+- [Datarade](https://datarade.ai/) - A data marketplace where users can find, compare, and purchase datasets from various B2B data providers. It is an excellent resource for discovering specialized vendors for intent data, lead generation lists, and other niche B2B data categories.   
 
 ## Financial & Economic Data
 This section provides resources for macroeconomic analysis, investment research, and understanding corporate financial health. These datasets are foundational for financial analysts, economists, and quantitative traders. Financial and economic data is characterized by its time-series nature and its direct impact on market movements and policy decisions. The sources range from governmental bodies providing official statistics to specialized firms offering real-time market feeds. A comprehensive financial analysis requires integrating data from three distinct levels: the macroeconomic context, corporate fundamental performance, and technical market data.
@@ -92,19 +90,20 @@ This data provides insight into the performance and financial health of individu
 
 - (https://www.sec.gov/edgar/searchedgar/companysearch) - The U.S. Securities and Exchange Commission's Electronic Data Gathering, Analysis, and Retrieval system is the primary source for corporate filings. It contains 10-K (annual) and 10-Q (quarterly) reports, providing deep, structured financial data on public companies. This raw data is the ground truth for all fundamental analysis. The data is also accessible in more user-friendly formats on platforms like    
 
-- data.gov  and(https://console.cloud.google.com/marketplace/product/sec-public-data-bq/sec-public-dataset).   
-- yfinance - A popular and powerful open-source Python library for downloading historical market data from Yahoo! Finance. It is an essential tool for quantitative analysts for backtesting trading strategies and performing technical analysis.   
+- [Data.gov](https://www.data.gov)
+- [SEC Public Dataset](https://console.cloud.google.com/marketplace/product/sec-public-data-bq/sec-public-dataset).   
+- [yfinance](https://finance.yahoo.com/) - A popular and powerful open-source Python library for downloading historical market data from Yahoo! Finance. It is an essential tool for quantitative analysts for backtesting trading strategies and performing technical analysis.   
 
-- (https://github.com/JerBouma/FinanceDatabase) - A comprehensive, open-source database of over 300,000 financial symbols, including equities, ETFs, funds, indices, and cryptocurrencies. It is invaluable for building a universe of tradable assets for broad market analysis.   
+- [/JerBouma/FinanceDatabase](https://github.com/JerBouma/FinanceDatabase) - A comprehensive, open-source database of over 300,000 financial symbols, including equities, ETFs, funds, indices, and cryptocurrencies. It is invaluable for building a universe of tradable assets for broad market analysis.   
 
-- Quandl - A premier platform for financial, economic, and alternative data. While many datasets are premium, it offers a significant amount of free data and is a staple in the quantitative finance community for its clean, well-documented APIs.   
+- [Quandl](https://data.nasdaq.com/publishers/QDL) - A premier platform for financial, economic, and alternative data. While many datasets are premium, it offers a significant amount of free data and is a staple in the quantitative finance community for its clean, well-documented APIs.   
 
-- Awesome Quant - A meticulously curated list of libraries, packages, and resources specifically for quantitative finance. It includes a vast collection of data source APIs for Python and R, making it a critical resource for quants.   
+- [Awesome Quant](https://wilsonfreitas.github.io/awesome-quant/projects.html) - A meticulously curated list of libraries, packages, and resources specifically for quantitative finance. It includes a vast collection of data source APIs for Python and R, making it a critical resource for quants.   
 
 ### Global Economic Indicators
 Macroeconomic data provides the context in which all businesses operate. Understanding trends in GDP, inflation, employment, and trade is crucial for strategic planning and risk assessment.
 
-- World Bank Open Data	Global development data for hundreds of countries.	GDP, population, poverty rates, access to electricity, GNI per capita.	Varies by indicator, often annually.
+- [World Bank Open Data	Global](https://data.worldbank.org/) development data for hundreds of countries.	GDP, population, poverty rates, access to electricity, GNI per capita.	Varies by indicator, often annually.
 - IMF Data	International financial statistics from 190 member countries.	Government Finance Statistics, World Economic Outlook, Balance of Payments.	Quarterly and annually.
 - FRED (St. Louis Fed)	U.S. and international macroeconomic time-series data.	GDP, CPI, unemployment rates, interest rates, exchange rates.	Daily, monthly, quarterly.
 - BEA (Bureau of Economic Analysis)	U.S. national economic accounts.	GDP, personal income and outlays, international trade in goods and services.	Monthly, quarterly.
